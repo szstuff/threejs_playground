@@ -11,7 +11,8 @@ The user can explore an apartment using standard FPS controls (WASD + mouse) and
 
 **To experience Puppy Playground:**
 Clone this repository to your local machine.
-Open the index.html file in a supported browser.
+Run npm install && vite preview to install dependencies and run the project locally.
+Click the localhost link provided by vite to open the preview in browser.
 Explore the apartment and enjoy the experience.
 
 **Assets and frameworks used**
