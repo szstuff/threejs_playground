@@ -1,11 +1,13 @@
 
-**Puppy Playground**
-Puppy Playground is a first-person experience developed using Three.js over a weekend. The goal of the project was to explore the capabilities of Three.js.
-The user can explore the apartment using standard FPS controls (WASD + mouse) and watch the puppies roaming around. 
+**ThreeJS Playground**
+ThreeJS Playground is a first-person experience developed using Three.js over a weekend. The goal of the project was to explore the capabilities of Three.js.
+The user can explore an apartment using standard FPS controls (WASD + mouse) and watch puppies roaming around. 
 
-**Bugs**
--Puppies tend to approach walls and windows, sometimes jumping out and disappearing from the scene.
--Lack of collision detection between puppies and the player.
+**Bugs and issues**
+- Puppies tend to approach walls and windows, sometimes jumping out and disappearing from the scene.
+- Puppies tend to levitate when climbing up curtains or other objects in the map. 
+- Puppies are created as Capsule objects, which helps with collision (with the map) but makes their behaviour more difficult to manipulate
+- Lack of collision detection between puppies and the player.
 
 **To experience Puppy Playground:**
 Clone this repository to your local machine.
