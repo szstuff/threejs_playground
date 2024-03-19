@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body { margin: 0; }
+    </style>
+</head>
+<body>
+<div id="Stats-output">
+</div>
+<!-- Prompt user for interaction -->
+<div id="actionDiv" style="position: absolute;
+    display: none;
+    width: 10%;
+    height: 5%;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    padding: 1%;
+    background-color: white;">
+   <img src="textures/hand.png"/>
+    <p id="actionText"> Loading </p>
+</div>
+<!--
+Settings panel
+<div id="settings" style="display: none">
+    <p> Mouse sensitivity </p>
+    <label for="mouseSensitivity">Mouse sensitivity</label>
+    <input type="range" id="mouseSensitivity" name="mouseSensitivity" min="1" max="10" value="4">
+    <button  id="returnToGameButton"> Return to game </button>
+</div>
+-->
+<div id="DOM" ></div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
